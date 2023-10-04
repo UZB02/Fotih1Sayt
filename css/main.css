@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(103, 6, 103);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav .container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0;
+}
+
+nav .container .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav .container .left a {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+nav .container .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav .container .right a {
+  color: antiquewhite;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+nav .container .right .con {
+  padding: 11px 30px;
+  background-color: rgb(54, 97, 97);
+  border: 2px solid black;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.mi {
+  width: 100%;
+  background: linear-gradient(45deg, black, white);
+}
+
+.mi .container {
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mi .container .title img {
+  width: 400px;
+  height: 400px;
+  background-position: 50% 50%;
+  border-radius: 100%;
+}
+
+.des {
+  width: 100%;
+}
+
+.des .container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.des .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.des .container .title h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+.des .container .title p {
+  font-size: 17px;
+  width: 50%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.des .container .title a {
+  font-size: 18px;
+  border-bottom: 1px solid rgb(28, 3, 3);
+}
+.stom {
+  width: 100%;
+}
+
+.stom .container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stom .container .title {
+  display: flex;
+  padding: 50px 0;
+  gap: 20px;
+}
+
+.stom .container .left h1 {
+  font-size: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 30px 0;
+}
+
+.stom .container .left img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.stom .container .right {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.stom .container .right img {
+  width: 600px;
+  height: 800px;
+  border-radius: 20px;
+}
+
+.stom .container .right a {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 90px;
+  text-align: center;
+  font-size: 16px;
+  background: darkslategray;
+  color: #fff;
+  border: none;
+  transition: all 0.5s ease;
+}
+.stom .container .right a:hover {
+  transform: scale(1.05);
+}
+.part5 {
+  width: 100%;
+}
+.part5 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.part5 .container .left {
+  width: 50%;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: end;
+}
+.part5 .container .left h1 {
+  font-size: 5em;
+}
+.part5 .container .right {
+  width: 50%;
+}
+.part5 .container .right p {
+  width: 60%;
+  font-size: 20px;
+}
+
+.part5 .container .right button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgb(40, 74, 74);
+  color: #fff;
+}
+
+.we .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  /* padding: 50px 0; */
+  padding-top: 300px;
+  /* text-align: center; */
+}
+
+.we .container .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.we .container .title h1 {
+  width: 60%;
+  border-top: 5px solid black;
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.we .container .title svg {
+  width: 100px;
+}
+
+.we .container .title h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.gmi .container {
+  width: 100%;
+}
+
+.gmi .container .title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gmi .container .title img {
+  width: 500px;
+  height: 300px;
+  transition: all 0.5s ease;
+}
+
+.gmi .container .title img:hover {
+  transform: scale(1.05);
+}
+
+.gmi .container .bot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.gmi .container .bot button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  background: darkslategray;
+  color: #fff;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.gmi .container .bot button:hover {
+  transform: scale(1.05);
+}
+
+.vis .container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 450px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vis .container p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.vis .container .left {
+  width: 50%;
+}
+
+.vis .container .left h1 {
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 66%;
+}
+
+.vis .container .left p {
+  font-size: 20px;
+  width: 80%;
+}
+
+.vis .container .left button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  background: darkslategray;
+  color: #fff;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.vis .container .left button:hover {
+  transform: scale(1.08);
+}
+
+.vis .container .right {
+  width: 50%;
+}
+
+.vis .container .right p {
+  font-size: 20px;
+  width: 80%;
+  /* margin-top: 400px; */
+  /* padding-bottom: 50px; */
+}
+
+.viw {
+  background: url("/i.webp");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.viw .container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viw .container .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.viw .container .title .svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.viw .container .title .svg svg:nth-child(1) {
+  fill: blue;
+}
+
+.viw .container .title .svg svg:nth-child(2) {
+  fill: aqua;
+}
+
+.viw .container .title .svg svg:nth-child(3) {
+  fill: pink;
+}
+
+.viw .container .title .svg svg:nth-child(4) {
+  fill: blue;
+}
+
+.viw .container .title .svg svg:nth-child(5) {
+  fill: green;
+}
+
+.viw .container .title h1 {
+  width: 90%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.footer .container {
+  width: 100%;
+}
+
+.footer .container .top {
+  height: 100px;
+  background-color: #160d40;
+}
+
+.footer .container .top h1 {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer .container .bottom {
+  height: 100px;
+  background-color: black;
+}
+
+.footer .container .bottom h1 {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
